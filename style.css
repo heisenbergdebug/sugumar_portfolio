@@ -1,0 +1,303 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: merriweather, serif;
+}
+
+.contact {
+    background-color: #ffffff;
+    margin: 100px;
+    
+}
+
+
+h1{
+    color: #66BFBF;
+    font-size: 80px;
+    margin: 0 ;
+    font-family:sacremento,cursive;
+}
+
+h2 {
+    color: #66BFBF;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999E;
+    padding-bottom: 10px;
+}
+
+p{
+   font-size: 20px;
+   line-height: 2;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 5%;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat',sans-serif;
+    text-decoration: none;
+}
+
+a :hover {
+    color: #9efafa; 
+}
+
+.name {
+    display: inline;
+    position: relative;
+    bottom: 100px;
+}
+.web {
+    position: relative;
+    font-size: 2.5rem;
+    bottom: 80px;
+}
+
+.container-1 {
+    position: relative;
+    height: 820px;
+    background-color: #E4F9F5;
+
+}
+
+.top-cloud {
+    display: flex;
+    position: relative;
+    height: 250px;
+    width: 250px;
+    left: 1100px;
+    top: 20px;
+}
+
+.bottom-cloud {
+    display: flex;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: 200px;
+    bottom: 250px;
+
+}
+
+.mountain {
+    display: flex;
+    height: 542px;
+    width: 600px;
+    position: relative;
+    left: 450px;
+    bottom: 420px;
+}
+
+
+.container-2 {
+    position: relative;
+    height: 400px;
+    margin: 90px 0 95px 0 ;
+}
+
+.profile {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    position: relative;
+    left: 660px;
+}
+
+.intro {
+    width: 35%;
+    margin: auto;
+
+}
+
+.line-1 {
+    position: relative;
+    border: 1px solid black;
+    margin-bottom: 300px;
+    top: 120px;
+}
+
+.skill-1 {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+
+}
+.skill-2 {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+
+}
+
+
+.coding {
+    height: 25%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.game {
+    height: 25%;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.line-2 {
+    border: 1px solid black;
+
+}
+
+.con {
+    display: inline-block;
+    position: relative;
+    text-decoration-color: aqua;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right:10px;
+    border: 1px solid rgb(74, 134, 237);
+    border-radius: 10px;
+}
+
+.con:hover {
+    background-color: rgb(77, 232, 232);
+}
+.insta {
+    display: inline;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    right: 25px;
+    border: 1px;
+    border-radius: 12px;
+}
+
+.insta:hover {
+    background-color: whitesmoke;
+}
+
+.linkedin {
+    display: inline;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    right: 14px;
+    border: 1px;
+    border-radius: 10px;
+}
+
+.linkedin:hover {
+    background-color: rgb(62, 118, 197);
+}
+
+.github {
+    display: inline;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border: 1px;
+    border-radius: 10px;
+}
+
+.github:hover {
+    background-color: grey;
+}
+
+.s {
+    font-size: 40px;
+    font-family: merriweather, serif;
+    margin-top: 30px;
+}
+
+.container-4 {
+    background-color: #66BFBF;
+    padding: 40px 0 20px;
+}
+
+.copy {
+    color: #EAf6f6;
+    font-size: 15px;
+    padding: 20px 0;
+}
+
+.form {
+    position: inline;
+    left: 600px;
+    
+    
+}
+
+.tables {
+    position: absolute;
+    left: 600px;
+}
+
+.tab {
+    position: relative;
+    border: 3px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+    
+    
+}
+
+.tab_bar {
+    background-color:rgb(158, 242, 255) ;
+    position: relative;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 15px;
+
+
+}
+
+.tab1 {
+    position: relative;
+    color: grey;
+    border: 2px solid rgb(158, 242, 255);
+    border-radius: 10px;
+    padding:0 10px;
+
+}
+
+.tab1:hover {
+    background-color: rgb(158, 242, 255);
+}
+
+.tab2 {
+    color: grey
+}
+
+.f1 {
+    font-family:merriweather, serif;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+.sub {
+    position: relative;
+    top: 20px;
+}
+
+.input {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.input:hover {
+    background-color: #EAf6f6;
+}
