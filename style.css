@@ -14,23 +14,26 @@ body{
 
 h1{
     color: #66BFBF;
-    font-size: 80px;
+    font-size: 3.4rem;
     margin: 0 ;
     font-family:sacremento,cursive;
+    filter: drop-shadow(2px 2px 1px #3c3c3c);
 }
 
 h2 {
     color: #66BFBF;
     padding-bottom: 10px;
+    filter: drop-shadow(2px 2px 1px #3c3c3c);
 }
 
 h3 {
     color: #11999E;
     padding-bottom: 10px;
+    
 }
 
 p{
-   font-size: 20px;
+   font-size: 1.2rem;
    line-height: 2;
 }
 
@@ -50,10 +53,16 @@ a :hover {
     color: #9efafa; 
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .name {
     display: inline;
     position: relative;
-    bottom: 100px;
+    bottom: 70px;
+    right: 100px;
 }
 .web {
     position: relative;
@@ -64,34 +73,40 @@ a :hover {
 .container-1 {
     position: relative;
     height: 820px;
+    width: 100%;
+    max-width: 1520px;
+    margin: auto;
     background-color: #E4F9F5;
 
 }
 
 .top-cloud {
-    display: flex;
+    display: inline;
     position: relative;
+    filter: drop-shadow(8px 10px 5px #3c3c3c);
     height: 250px;
     width: 250px;
-    left: 1100px;
-    top: 20px;
+    left: 620px ;
+
 }
 
 .bottom-cloud {
     display: flex;
+    position: relative;
+    filter: drop-shadow(8px 10px 5px #3c3c3c);
     height: 250px;
     width: 250px;
-    position: relative;
-    left: 200px;
-    bottom: 250px;
+    left: 250px;
+    bottom: 200px;
 
 }
 
 .mountain {
     display: flex;
+    position: relative;
+    filter: drop-shadow(5px 5px 5px #3c3c3c);
     height: 542px;
     width: 600px;
-    position: relative;
     left: 450px;
     bottom: 420px;
 }
@@ -109,6 +124,7 @@ a :hover {
     display: flex;
     position: relative;
     left: 660px;
+    filter: drop-shadow(8px 8px 8px #3c3c3c);
 }
 
 .intro {
@@ -139,6 +155,7 @@ a :hover {
 
 
 .coding {
+    filter: drop-shadow(8px 10px 10px #282727);
     height: 25%;
     width: 25%;
     float: left;
@@ -147,6 +164,7 @@ a :hover {
 }
 
 .game {
+    filter: drop-shadow(7px 10px 10px #282727);
     height: 25%;
     width: 25%;
     float: right;
@@ -300,4 +318,15 @@ a :hover {
 
 .input:hover {
     background-color: #EAf6f6;
+}
+
+.butt {
+    border-radius: 8px;
+    padding: 3px;
+    
+}
+
+.butt:hover {
+    background-color: #EAf6f6;
+
 }
